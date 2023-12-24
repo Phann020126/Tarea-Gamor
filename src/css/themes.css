@@ -1,0 +1,14 @@
+body[theme="dark"] {
+    --bg-color-dark: #1C1C1C;
+    --bg-color-normal: #343A3F;
+    --bg-color-light: #6C7076;
+
+    --color-primary: #F2874E;
+    --color-secondary: #2F259B;
+
+    --text-color-default: #6C7076;
+    --text-color-alternative: #FFFFFF;
+
+    --bg-img-defaut-ellipse: url("/assets/images/orange-ellipse.png");
+    --bg-img-alternative-ellipse: url("/assets/images/blue-ellipse.png");
+}
