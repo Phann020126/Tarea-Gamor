@@ -1,8 +1,15 @@
 @import url(themes.css);
 @import url(nav-bar.css);
+@import url(main.css);
 
 body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: var(--bg-color-normal);
+    gap: 32px;
+
+    color: var(--text-color-default)
 }
 
 a {
