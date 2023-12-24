@@ -1,7 +1,8 @@
 body[theme="dark"] {
     --bg-color-dark: #1C1C1C;
-    --bg-color-normal: #343A3F;
-    --bg-color-light: #6C7076;
+    --bg-color-normal: #1A2028;
+    --bg-color-light: #343A3F;
+    --bg-color-xlight: #45413C;
 
     --color-primary: #F2874E;
     --color-primary-dark: #DD6823;
@@ -9,6 +10,7 @@ body[theme="dark"] {
 
     --text-color-default: #6C7076;
     --text-color-alternative: #FFFFFF;
+    --text-color-alternative-inverted: #000000;
 
     --bg-img-default-ellipse: url("/assets/images/orange-ellipse.png");
     --bg-img-alternative-ellipse: url("/assets/images/blue-ellipse.png");
