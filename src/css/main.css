@@ -46,6 +46,9 @@
     line-height: normal;
     letter-spacing: 0.42px;
     margin: 0px;
+    background-image: url("/assets/images/blue-ellipse-compound.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #left h1 spam {
