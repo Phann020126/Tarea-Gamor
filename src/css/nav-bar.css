@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    width: 1536px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -22,12 +22,11 @@ nav {
 
 
 .logo {
-    color: #000000;
     display: flex;
     height: 59px;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    color: var(--text-color-alternative);
 
     text-align: center;
     font-family: Open Sans;
@@ -39,9 +38,19 @@ nav {
 }
 
 .primary-button {
+    color: var(--text-color-alternative);
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
 
+    border-radius: 999px;
+    border: 1px solid var(--text-color-alternative);
+    background: var(--bg-color-dark);
 }
 
 .secondary-button {
-
+    color: var(--text-color-alternative);
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
 }
