@@ -5,20 +5,17 @@ nav {
     align-items: center;
 }
 
-.link a{
-    color: var(--text-color-default);
-    text-align: center;
-    font-family: Droid Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.16px;
-}
-
-.link a[selected]{
+.link[selected]{
     color: var(--color-primary);
     background-image: var(--bg-img-default-ellipse);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.logo {
+    color: #000000;
+    display: flex;
+    height: 59px;
+    justify-content: center;
+    align-items: center;
 }
