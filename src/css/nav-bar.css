@@ -12,10 +12,36 @@ nav {
     background-size: contain;
 }
 
+.link {
+    color: var(--text-color-default);
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .logo {
     color: #000000;
     display: flex;
     height: 59px;
     justify-content: center;
     align-items: center;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.26px;
+}
+
+.primary-button {
+
+}
+
+.secondary-button {
+
 }

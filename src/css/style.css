@@ -1,2 +1,11 @@
 @import url(themes.css);
 @import url(nav-bar.css);
+
+body {
+    background-color: var(--bg-color-normal);
+}
+
+a {
+    text-decoration: none;
+    font-family: sa;
+}
