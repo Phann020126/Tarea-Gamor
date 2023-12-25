@@ -29,7 +29,7 @@
     color: var(--text-color-default);
 }
 
-#left p spam {
+#left p span {
     color: var(--text-color-alternative);
 }
 
@@ -47,7 +47,7 @@
     background-size: contain;
 }
 
-#left h1 spam {
+#left h1 span {
     color: var(--color-secondary);
 }
 
@@ -71,7 +71,7 @@
     height: 70%;
 }
 
-#center spam {
+#center span {
     color: var(--color-primary-dark);
 }
 
@@ -100,9 +100,9 @@
     align-self: stretch;
 }
 
-#right spam {
-    color: var(--text-color-default);
+#right h2 span {
     font-size: 24px;
+    color: var(--text-color-default);
     font-weight: 400;
 }
 
@@ -146,6 +146,11 @@
     color: var(--text-color-alternative);
 }
 
+.platform a:hover {
+    cursor: pointer;
+    background-color: var(--bg-color-light);
+}
+
 .search {
     width: 100%;
     height: 100%;
@@ -175,9 +180,9 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
     flex: 1 0 0;
-    color: black;
+    color: var(--text-color-alternative);
     text-align: left;
-    font-size: 8px;
+    font-size: 16px;
 }
 
 #search-result, #search-bar p {
@@ -189,7 +194,7 @@
     gap: 16px;
 }
 
-#search-result spam {
+#search-result span {
     color: var(--text-color-alternative);
 }
 
