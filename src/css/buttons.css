@@ -9,6 +9,11 @@
     background: var(--bg-color-dark);
 }
 
+.primary-button:hover {
+    cursor: pointer;
+    background-color: var(--bg-color-light);
+}
+
 .secondary-button {
     color: var(--text-color-alternative);
     padding: 8px 16px;
