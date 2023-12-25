@@ -24,7 +24,7 @@ h2 {
     letter-spacing: 0.2px;
 }
 
-a, p, button{
+a, p, button, input{
     text-decoration: none;
     text-align: center;
     font-family: Droid Sans;
@@ -33,4 +33,27 @@ a, p, button{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.16px;
+}
+
+input {
+    display: flex;
+    padding: 16px 8px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--text-color-alternative);
+    background: var(--bg-color-light);
+    color: var(--text-color-alternative);
+}
+
+.pop-up {
+    display: flex;
+    width: 633px;
+    height: 745px;
+    padding: 64px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, var(--bg-color-normal), var(--bg-color-dark), 100%);
 }
