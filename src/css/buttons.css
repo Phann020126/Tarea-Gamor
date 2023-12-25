@@ -27,3 +27,13 @@
     background: var(--bg-color-xlight);
     border: none;
 }
+
+.primary-button-inverted {
+    color: var(--text-color-alternative-inverted);
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--text-color-alternative);
+    border: none;
+}

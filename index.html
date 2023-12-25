@@ -39,26 +39,40 @@
       </div>
 
       <div id="center">
-        <article>
+        <div>
           <h2>Fornite New Season</h2>
           <p><spam>Join Live Stream</spam></p>
-        </article>
+        </div>
         <p id="clock"><script src="./src/js/clock.js"></script></p>
         <img src="assets/images/dark-theme-fornite-image.png" />
       </div>
 
       <div id="right">
         <h2><spam>01.</spam>Choose Platform</h2>
-        <article>
-          <button class="primary-button-alternative" onclick="choosePlatform('Party')" selected><img src="assets/images/party-icon.svg">Party</button>
-          <button class="primary-button-alternative" onclick="choosePlatform('Match')"><img src="assets/images/trophy-icon.svg">Match</button>
-          <button class="primary-button-alternative" onclick="choosePlatform('Stream')"><img src="assets/images/rocket-icon.svg">Stream</button>
-        </article>
+        <div class="platform">
+          <a class="primary-button-alternative" onclick="choosePlatform(0)" selected><img src="assets/images/party-icon.svg">Party</a>
+          <a class="primary-button-alternative" onclick="choosePlatform(1)"><img src="assets/images/trophy-icon.svg">Match</a>
+          <a class="primary-button-alternative" onclick="choosePlatform(2)"><img src="assets/images/rocket-icon.svg">Stream</a>
+        </div>
         <h2><spam>02.</spam>Searching Game</h2>
-        <article>
+        <div class="search">
+          <div id="search-bar">
+            <p><spam id="game-name">CoD Warzone</spam><img src="./assets/images/settings-icon.svg"></p>
+          </div>
           
-          
-        </article>
+          <div id="search-items">
+            <p id="search-result">
+            <spam id="rank">1</spam>
+            <spam id="name">Dr Team</spam>
+            <spam id="icons"></spam>
+            <spam id="add"><img src="./assets/images/add-icon.svg"></spam>
+            </p>
+          </div>
+
+          <div>
+            <a class="primary-button-inverted">Search Now</a>
+          </div>
+        </div>
       </div>
     </section>
 
