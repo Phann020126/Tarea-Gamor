@@ -42,7 +42,7 @@
     line-height: normal;
     letter-spacing: 0.42px;
     margin: 0px;
-    background-image: url("/assets/images/blue-ellipse-compound.png");
+    background-image: var(--bg-image-alternative-ellipse);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -106,7 +106,7 @@
     font-weight: 400;
 }
 
-.platform {
+#platform {
     display: flex;
     padding: 16px;
     justify-content: center;
@@ -116,21 +116,21 @@
     background: var(--bg-color-dark);
 }
 
-.platform {
+#platform {
     flex-direction: row;
 }
 
-.platform a img {
+#platform a img {
     width: 0px;
     height: 0px;
 }
 
-.platform a[selected] img {
+#platform a[selected] img {
     width: 24px;
     height: 24px;
 }
 
-.platform a {
+#platform a {
     background: none;
     text-align: center;
     font-family: Droid Sans;
@@ -141,12 +141,12 @@
     gap: 8px;
 }
 
-.platform a[selected] {
+#platform a[selected] {
     background-color: var(--bg-color-light);
     color: var(--text-color-alternative);
 }
 
-.platform a:hover {
+#platform a:hover {
     cursor: pointer;
     background-color: var(--bg-color-light);
 }

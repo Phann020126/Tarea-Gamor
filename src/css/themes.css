@@ -12,6 +12,24 @@ body[theme="dark"] {
     --text-color-alternative: #FFFFFF;
     --text-color-alternative-inverted: #000000;
 
+    --bg-img-default-ellipse: url("./../../assets/images/orange-ellipse.png");
+    --bg-img-alternative-ellipse: url("./../../assets/images/blue-ellipse-compound.png");
+}
+
+body[theme="light"] {
+    --bg-color-dark: #1C1C1C;
+    --bg-color-normal: #1A2028;
+    --bg-color-light: #343A3F;
+    --bg-color-xlight: #45413C;
+
+    --color-primary: #2F259B;
+    --color-primary-dark: #120c50;
+    --color-secondary: #F2874E;
+
+    --text-color-default: #FFFFFF;
+    --text-color-alternative: #6C7076;
+    --text-color-alternative-inverted: #000000;
+
     --bg-img-default-ellipse: url("/assets/images/orange-ellipse.png");
     --bg-img-alternative-ellipse: url("/assets/images/blue-ellipse.png");
 }
