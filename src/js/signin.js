@@ -3,14 +3,16 @@ function signin(){
     dialog.showModal();
     dialog.style.display = "flex";
 
-    var username = dialog.querySelector("#username").value;
-    var password = dialog.querySelector("#password").value;
-    var cpassword = dialog.querySelector("#cpassword").value;
     var errorMessage = dialog.querySelector("#error");
     var btn = dialog.querySelector("#btn");
     var localStorage = window.localStorage;
 
     function createAccount() {
+
+        var username = dialog.querySelector("#username").value;
+        var password = dialog.querySelector("#password").value;
+        var cpassword = dialog.querySelector("#cpassword").value;
+
         if(password === cpassword && username !== "" && password !== "" ) {
             localStorage.setItem(username, password);
             errorMessage.style.display = "none";
@@ -18,7 +20,7 @@ function signin(){
             dialog.close()
         }
         else {
-              
+
             if(password !== cpassword) errorMessage.innerHTML = "wrong confirmation password";
             if(password === "") errorMessage.innerHTML = "password is a required field";
             if(username === "") errorMessage.innerHTML = "username is a required field";

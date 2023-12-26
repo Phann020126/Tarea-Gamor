@@ -3,13 +3,15 @@ function login() {
     dialog.showModal();
     dialog.style.display = "flex";
 
-    var username = dialog.querySelector("#username").value;
-    var password = dialog.querySelector("#password").value;
     var errorMessage = dialog.querySelector("#error");
     var btn = dialog.querySelector("#btn");
     var localStorage = window.localStorage;
-
+    
     function checkPassword() {
+        
+        var username = dialog.querySelector("#username").value;
+        var password = dialog.querySelector("#password").value;
+
         if(localStorage.getItem(username) === password) {
             
             var logged = document.getElementById("logged");
