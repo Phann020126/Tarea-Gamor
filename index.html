@@ -6,6 +6,7 @@
     <script src="src/js/code.js"></script>
     <script src="src/js/login.js"></script>
     <script src="src/js/signin.js"></script>
+    <script src="src/js/logout.js"></script>
     <link rel="stylesheet" href="src/css/style.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,9 +25,16 @@
         <a class="logo" href="./index.html">Gamor</a>
       </div>
 
-      <div>
+      <div id="unlogged">
         <a class="secondary-button" onclick="login()">Sign In</a>
         <a class="primary-button" onclick="signin()">Create Account</a>
+      </div>
+
+      <div id="logged" style="display: none;">
+        <p gap="8px">
+          <spam id="username">Default</spam>
+          <a class="secondary-button" onclick="logout()">Log Out</a>
+        </p>
       </div>
     </nav>
 
