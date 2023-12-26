@@ -11,9 +11,10 @@ function signin(){
     var localStorage = window.localStorage;
 
     function createAccount() {
-        if(password === cpassword && username !== "" && password !== "") {
+        if(password === cpassword && username !== "" && password !== "" ) {
             localStorage.setItem(username, password);
             errorMessage.style.display = "none";
+            dialog.style.display = "none";
             dialog.close()
         }
         else {

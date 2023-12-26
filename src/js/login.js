@@ -13,6 +13,7 @@ function login() {
         if(localStorage.getItem(username) === password) {
             //Change nav elements
             errorMessage.style.display = "none";
+            dialog.style.display = "none";
             dialog.close();
         }
         else {  

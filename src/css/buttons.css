@@ -38,6 +38,11 @@
     border: none;
 }
 
+.primary-button-alternative:hover {
+    cursor: pointer;
+    background: var(--bg-color-normal);
+}
+
 .primary-button-inverted {
     color: var(--text-color-alternative-inverted);
     padding: 16px 32px;
