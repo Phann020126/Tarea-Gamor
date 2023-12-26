@@ -8,7 +8,7 @@ function login() {
     var localStorage = window.localStorage;
     
     function checkPassword() {
-        
+
         var username = dialog.querySelector("#username").value;
         var password = dialog.querySelector("#password").value;
 
@@ -16,8 +16,8 @@ function login() {
             
             var logged = document.getElementById("logged");
             logged.style.display = "flex";
-            var username = logged.querySelector("#username");
-            username.innerHTML = username;
+            var user = logged.querySelector("#username");
+            user.innerHTML = username;
 
             var unlogged = document.getElementById("unlogged");
             unlogged.style.display = "none";
