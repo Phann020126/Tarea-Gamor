@@ -10,3 +10,4 @@ function choosePlatform(idPlatform)
 
     platforms[idPlatform].setAttribute("selected", "True");
 }
+

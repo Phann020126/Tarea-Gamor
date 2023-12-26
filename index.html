@@ -4,6 +4,7 @@
   <head>
     <title>Gamor</title>
     <script src="src/js/code.js"></script>
+    <script src="src/js/login.js"></script>
     <link rel="stylesheet" href="src/css/style.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,7 +24,7 @@
       </div>
 
       <div>
-        <a class="secondary-button" href="./sign-in.html">Sign In</a>
+        <a class="secondary-button" onclick="login()">Sign In</a>
         <a class="primary-button" href="./register.html">Create Account</a>
       </div>
     </nav>
@@ -34,7 +35,7 @@
         <p>gamor has now <span>stream party</span> platform</p>
         <article>
           <a class="primary-button-alternative" href="./register.html">Create Account</a>
-          <a class="secondary-button" href="./sign-in.html">Sign In</a>
+          <a class="secondary-button" onclick="login()">Sign In</a>
         </article>
       </div>
 
@@ -107,7 +108,7 @@
     <p>Confirm Password</p>
     <input id="password" type="text" placeholder="Password" />
     <br>
-    <a class="primary-button">Sign In</a>
+    <a id="btn" class="primary-button">Sign In</a>
 
   </dialog>
 
@@ -121,7 +122,8 @@
     <h2>Password</h2>
     <input id="password" type="text" placeholder="Password" />
     <br>
-    <a class="primary-button">Log In</a>
+    <a id="btn" class="primary-button">Log In</a>
+    <p id="error"><span></span></p>
 
   </dialog>
 </html>

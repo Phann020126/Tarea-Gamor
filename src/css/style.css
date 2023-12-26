@@ -47,8 +47,8 @@ input {
 }
 
 .pop-up {
-    display: flex;
-    width: 633px;
+    display: none;
+    width: 540px;
     height: 745px;
     padding: 64px 32px;
     flex-direction: column;

@@ -21,6 +21,11 @@
     align-items: center;
 }
 
+.secondary-button:hover {
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
 .primary-button-alternative {
     color: var(--text-color-alternative);
     padding: 16px;
