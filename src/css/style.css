@@ -47,7 +47,6 @@ input {
 }
 
 .pop-up {
-    display: none;
     width: 540px;
     height: 745px;
     padding: 64px 32px;
@@ -62,4 +61,9 @@ input {
 
 .pop-up h2 {
     color: var(--text-color-alternative);
+}
+
+#error {
+    display: none;
+    color: red;
 }
