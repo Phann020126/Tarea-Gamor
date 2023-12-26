@@ -18,6 +18,11 @@ function signin(){
             dialog.close()
         }
         else {
+              
+            if(password !== cpassword) errorMessage.innerHTML = "wrong confirmation password";
+            if(password === "") errorMessage.innerHTML = "password is a required field";
+            if(username === "") errorMessage.innerHTML = "username is a required field";
+
             errorMessage.style.display = "flex";
         }
     }
